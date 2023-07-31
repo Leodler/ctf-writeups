@@ -1,7 +1,7 @@
 File looks simple enough to solve with symbolic execution. The underlined instruction will give angr problems without using Unicorn however.
 ![image](https://github.com/Leodler/ctf-writeups/assets/48812008/f5ef36f6-218e-4304-86dc-5ea8f8cfb9de)
 
-(not worrying about different base addressess between angr and Binary Ninja, we can replace the last 4 bytes with our address from Binary Ninja)
+(not worrying about different base addressess between angr and Binary Ninja, we can replace the last 4 characters with our address from Binary Ninja)
 
 Our find address is at ```0x12c7``` and our avoid address is at ```0x12d5```
 
